@@ -295,7 +295,7 @@ main .donate input::placeholder{
     color: rgba(14, 14, 14, 0.3);
 }
 main .donate button{
-    margin: 0px auto;
+    margin: 0 auto;
     padding: 17px 34px;
     background: #006A50;
     border: none;
@@ -305,4 +305,58 @@ main .donate button{
     font-weight: 600;
     display: flex;
     justify-content: center;
+}
+
+footer .subscribe-now{
+    margin-top: 80px;
+    background: #C6E4D6;
+    padding: 80px 150px;
+    border-radius: 24px;
+}
+footer .subscribe-now h1{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0px;
+}
+footer .subscribe-now p{
+    margin-top: 16px;
+    margin-bottom: 24px;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+    text-align: center;
+}
+footer .subscribe-now div{
+    display: flex;
+    justify-content: center;
+}
+footer .subscribe-now div input{  
+    padding: 18px 40px;
+    width: 90%;
+    border:none;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.subscribe-now input::placeholder{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.3);
+    font-weight: 200;
+}
+footer .subscribe-now div button{
+    padding: 17px 34px;
+    color: #ffffff;
+    background: #006A50;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+footer .subscribe-now h6{
+    text-align: center;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    font-weight: 300;
+    margin: 24px 0 0 0;
 }
