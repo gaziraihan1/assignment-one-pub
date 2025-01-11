@@ -1,0 +1,203 @@
+body{
+    background: #f5f5f5;
+    width: 80vw;
+    margin: 0 auto;
+    font-family:"Fira Sans", serif ;
+    padding: 0;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav h1{
+    font-size: 32px;
+    font-weight: bold;
+}
+header nav button{
+    font-size: 18px;
+    padding: 15px 30px;
+    font-weight: 600;
+    color: #006A50;
+    border: 1px solid #006A50;
+    border-radius: 6px;
+}
+
+header .banner-section{
+    background: #C6E4D6;
+    border-radius: 24px;
+    margin-top: 24px;
+    display: flex;
+    padding: 80px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 64px;
+}
+.banner-section div h3{
+    font-size: 24px;
+    color: rgba(14, 14, 14, 0.5);
+    font-weight: 500;
+    margin-bottom:16px;
+    margin-top: 0px;
+}
+.banner-section div h1{
+    font-size: 56px;
+    margin-bottom: 24px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+.banner-section div button{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 17px 34px;
+    background-color: #006A50;
+    border: none;
+    border-radius: 8px;
+    color: white;
+}
+main .pillars, main .vision{
+    margin-top: 80px;
+}
+main .pillars > h2, main .vision > h2, main .opinion h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+main .pillars .pillars-main-div, main .vision .vision-main-div{
+    display: flex;
+    gap: 24px;
+    margin-top: 32px;
+}
+main .pillars > div div{
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 24px;
+    border:1px solid rgba(14, 14, 14, 0.15)
+}
+main h4{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+    margin-top: 24px;
+    margin-bottom: 0px;
+}
+main .pillars p, main .vision p{
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-top: 12px;
+    margin-bottom: 0px;
+}
+
+main .vision > div div{
+    padding: 32px;
+    border-radius: 16px;
+}
+main .vision .vision-one{
+    background: rgba(84, 144, 245, 0.2);
+}
+main .vision .vision-two{
+    background: #C6E4D6;
+}
+main .vision .vision-three{
+    background: #F7EBCF;
+}
+main .vision > div div h4{
+    margin-top: 24px;
+}
+main .pillars button, main .vision button{
+    margin-top: 24px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 11px 20px;
+}
+.vision-one-btn{
+    background: #5490F5;
+}
+.vision-two-btn{
+    background: #09A15C;
+}
+.vision-three-btn{
+    background: #FFC239;
+}
+main .qoutes{
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    padding: 48px 24px;
+    margin-top: 32px;
+    margin-bottom: 80px;
+    background:url(assets/quote-bg.png), white;
+    background-repeat: no-repeat;
+    background-position: top 24px left 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+main .qoutes p{
+    margin-bottom: 24px;
+    margin-top: 0px;
+}
+main .qoutes h5{
+    margin-top: 0px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 4px;
+}
+main .qoutes h6{
+    margin: 0 0;
+    line-height: 24px;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.6);
+    font-weight: 400;
+}
+
+main .opinion .table-div{
+    margin-top: 24px;
+    padding: 32px;
+    background: #ffffff;
+    border-radius: 16px;
+}
+.table-div table{
+    width: 100%;
+    margin: 0px;
+    border-spacing: 0px;
+}
+.table-div table tr th,.table-div table tr td{
+    padding: 24px;
+    text-align: left;
+}
+.table-div table{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+.table-div table thead{
+    background: #C6E4D6;
+    font-size: 20px;
+    font-weight: 600;
+}
+.table-div table tbody tr td{
+    border-top: 1px solid rgba(14, 14, 14, 0.15);
+    font-weight: 600;
+    font-size: 16px;
+
+}
+.table-div table .agree{
+    border-left: 1px solid rgba(14, 14, 14, 0.15);
+    
+}
+.table-div table .agree h6{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 14px;
+    margin:0px;
+    border-radius: 4px;
+    background: rgba(9, 161, 92, 0.15);
+    border: 1px solid black;
+    text-align: center;
+}
+.table-div table .agree-one h6{
+    background: #C6E4D6;
+
+}
