@@ -5,17 +5,8 @@ body{
     padding: 0;
     width: 80vw;
 }
-/* header{
-    width: 80vw;
-    margin: 0 auto;
-}
-main{
-    width: 80vw;
-    margin: 0 auto;
-}
-footer{
-    width: 100vw;
-} */
+
+/* Header section style */
 header nav{
     display: flex;
     justify-content: space-between;
@@ -65,7 +56,14 @@ header .banner-section{
     border: none;
     border-radius: 8px;
     color: white;
+    transition: all 0.5s;
 }
+.banner-section div button:hover{
+    background: #2f9968;
+    cursor: pointer;
+}
+
+/* Main section styling */
 main .pillars, main .vision, main .recent-news, main .donate{
     margin-top: 80px;
 }
@@ -74,6 +72,8 @@ h2{
     font-weight: bold;
     margin-bottom: 0px;
 }
+
+/* Mainly for pillars */
 main .pillars .pillars-main-div, main .vision .vision-main-div{
     display: flex;
     gap: 24px;
@@ -100,6 +100,7 @@ main .pillars p, main .vision p, main .donate p{
     margin-bottom: 0px;
 }
 
+/* Design for vision section */
 main .vision > div div{
     padding: 32px;
     border-radius: 16px;
@@ -127,13 +128,30 @@ main .pillars button, main .vision button{
 }
 .vision-one-btn{
     background: #5490F5;
+    transition:all 0.5s;
+}
+.vision-one-btn:hover{
+    background: #4bd48f;
+    cursor: pointer;
 }
 .vision-two-btn{
     background: #09A15C;
+    transition: all 0.5s;
+}
+.vision-two-btn:hover{
+    background: #6933e6;
+    cursor:pointer;
 }
 .vision-three-btn{
     background: #FFC239;
+    transition: all 0.5s;
 }
+.vision-three-btn:hover{
+    background: #9b1e1e;
+    cursor: pointer;
+}
+
+/* Dr younus sir qoutes */
 main .qoutes{
     display: flex;
     flex-direction: column;
@@ -165,6 +183,7 @@ main .qoutes h6{
     font-weight: 400;
 }
 
+/* Opinion section */
 main .opinion .table-div{
     margin-top: 24px;
     padding: 32px;
@@ -207,11 +226,17 @@ main .opinion .table-div{
     background: rgba(9, 161, 92, 0.15);
     border: 1px solid black;
     text-align: center;
+    cursor:pointer;
+    transition: all 0.4s;
+}
+.table-div table .agree h6:hover{
+    background: #C6E4D6;
 }
 .table-div table .agree-one h6{
     background: #C6E4D6;
-
 }
+
+/* Recent news section designing */
 .recent-news > p{
     margin-top: 24px;
     font-size: 16px;
@@ -241,10 +266,13 @@ main .opinion .table-div{
 .news-section > div > div img{
     margin-top: 12px;
 }
+span{
+    margin-left: 12px;
+}
 .news-section h6{
     font-size: 16px;
     color: rgba(14, 14, 14, 0.7);
-    font-weight: 200;
+    font-weight: 300;
     line-height: 24px;
     margin: 12px 0 0 0;
 }
@@ -263,11 +291,17 @@ main .opinion .table-div{
     font-weight: 600;
     border: none;
     margin:32px 0 0 0;
+    transition: all 0.3s;
+}
+.news-section button:hover{
+    background: #1fb462;
+    cursor: pointer;
 }
 .news-section .news-div-2{
     flex-direction: row-reverse;
 }
 
+/* Donate section design */
 main .donate h2{
     text-align: center;
 }
@@ -276,6 +310,12 @@ main .donate p{
     margin-top: 24px;
     margin-bottom: 0px;
     padding: 0px 30px;
+}
+.donate div .donate-200-taka{
+    background: #C6E4D6;
+}
+.donate div h1:hover{
+    background: #C6E4D6;
 }
 main .donate div{
     margin-top: 32px;
@@ -317,8 +357,14 @@ main .donate button{
     font-weight: 600;
     display: flex;
     justify-content: center;
+    transition: all 0.4s;
+}
+main .donate button:hover{
+    background: #1fb462;
+    cursor: pointer;
 }
 
+/* footer section/ subscribe and end of the page */
 footer .subscribe-now{
     margin-top: 80px;   
     background: #C6E4D6;
@@ -365,6 +411,11 @@ footer .subscribe-now div button{
     font-weight: 600;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
+    transition: all 0.5s;
+}
+footer .subscribe-now div button:hover{
+    background: #1fb462;
+    cursor: pointer;
 }
 footer .subscribe-now h6{
     text-align: center;
