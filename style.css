@@ -1,10 +1,21 @@
 body{
     background: #f5f5f5;
-    width: 80vw;
     margin: 0 auto;
     font-family:"Fira Sans", serif ;
     padding: 0;
+    width: 80vw;
 }
+/* header{
+    width: 80vw;
+    margin: 0 auto;
+}
+main{
+    width: 80vw;
+    margin: 0 auto;
+}
+footer{
+    width: 100vw;
+} */
 header nav{
     display: flex;
     justify-content: space-between;
@@ -264,6 +275,7 @@ main .donate p{
     text-align: center;
     margin-top: 24px;
     margin-bottom: 0px;
+    padding: 0px 30px;
 }
 main .donate div{
     margin-top: 32px;
@@ -308,7 +320,7 @@ main .donate button{
 }
 
 footer .subscribe-now{
-    margin-top: 80px;
+    margin-top: 80px;   
     background: #C6E4D6;
     padding: 80px 150px;
     border-radius: 24px;
@@ -326,6 +338,7 @@ footer .subscribe-now p{
     line-height: 24px;
     color: rgba(14, 14, 14, 0.7);
     text-align: center;
+    padding: 0px 80px;
 }
 footer .subscribe-now div{
     display: flex;
@@ -359,4 +372,21 @@ footer .subscribe-now h6{
     color: rgba(14, 14, 14, 0.7);
     font-weight: 300;
     margin: 24px 0 0 0;
+}
+.last-footer{
+    text-align: center;
+    margin-top: 80px;
+    padding: 0px 80px;
+}
+footer .last-footer h2{
+    margin-top: 80px;
+    padding: 32px 0;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+}
+footer .last-footer div{
+    margin-top: 32px;
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
 }
