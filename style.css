@@ -55,10 +55,10 @@ header .banner-section{
     border-radius: 8px;
     color: white;
 }
-main .pillars, main .vision{
+main .pillars, main .vision, main .recent-news{
     margin-top: 80px;
 }
-main .pillars > h2, main .vision > h2, main .opinion h2{
+main .pillars > h2, main .vision > h2, main .opinion h2, main .recent-news h2{
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 0px;
@@ -200,4 +200,59 @@ main .opinion .table-div{
 .table-div table .agree-one h6{
     background: #C6E4D6;
 
+}
+.recent-news > p{
+    margin-top: 24px;
+    font-size: 16px;
+    line-height: 24px;
+}
+.recent-news .news-section{
+    margin-top: 32px;
+}
+.recent-news .news-section > div{
+    display: flex;
+    justify-content: space-between;
+    padding: 48px;
+    gap: 32px;
+    background: #ffffff;
+    margin-bottom: 24px;
+    border-radius: 24px;
+}
+.recent-news .news-section >div > img{
+    border-radius: 24px;
+}
+.recent-news .news-section h1{
+    font-size: 32px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+    margin: 0px;
+}
+.news-section > div > div img{
+    margin-top: 12px;
+}
+.news-section h6{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    font-weight: 200;
+    line-height: 24px;
+    margin: 12px 0 0 0;
+}
+.news-section p{
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+    margin: 12px 0 0 0;
+}
+.news-section button{
+    padding: 13px 26px;
+    border-radius: 8px;
+    background: #006A50;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    margin:32px 0 0 0;
+}
+.news-section .news-div-2{
+    flex-direction: row-reverse;
 }
